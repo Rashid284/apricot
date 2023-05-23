@@ -1,3 +1,0 @@
-# apricot
-# apricot
-# apricot
