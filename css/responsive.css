@@ -1,11 +1,24 @@
-@media (max-width: 1400px) { }
+@media (max-width: 2560px) {
+    /* HERO_SECTION */
+    .hero_cntnt h3::after {
+        top: 62%;
+        left: 24%;
+        transform: translate(-56%, -40%);
+    }
+ }
+
+ @media (max-width: 1440px){
+    .hero_cntnt h3::after{
+        left: 51%;
+    }
+ }
 
 @media (max-width: 1200px) { 
         /* HERO_SECTION */
-        .hero_cntnt h3::after{
+        /* .hero_cntnt h3::after{
             top: 156px;
             left: -7px;
-        }
+        } */
         .hero_main_img{
             width: 100%;
             position: relative;
@@ -97,7 +110,9 @@
             margin-top: 89px;
         }
         .hero_cntnt h3::after{
-            transform: translate(358px, -118px);
+            top: 45%;
+            left: 65%;
+            transform: translate(-54%, -41%);
         }
         .hero_main_img{
             width: 100%;
@@ -150,6 +165,12 @@
  }
 
 @media (max-width: 576px) { 
+    /* HERO_SECTION */
+    .hero_cntnt h3::after {
+        top: 60%;
+        left: 24%;
+        transform: translate(-59%, -16%);
+    }
     /* OUR_SERVICE_SECTION */
     .ser_head h3::after{
         left: 29%;
@@ -228,12 +249,36 @@
         display: block;
     }
  }
+
+ @media (max-width: 380px) {
+    .hero_cntnt h3::after {
+        top: 59%;
+        left: 50%;
+        transform: translate(-56%, -16%);
+    }
+ }
  @media (max-width: 360px) {
+    /* HERO_SECTION */
+    .hero_cntnt h3::after{
+        top: 46%;
+        left: 65%;
+        transform: translate(-66%, -41%);
+    }
+    /* FEATURE_SECTION */
+    .feat_sub_head_main h3::after{
+        bottom: 0%;
+        left: 46%;
+        transform: translate(-8%, 65%);
+    }
     /* CONTACT_SECTION */
     .update_head a {
         margin-left: 28px;
     }
+    .cntct_icons ul{
+        gap: 25px;
+    }
   }
+
  @media (max-width: 280px) { 
     /* HEADER */
     .naavbar.show{
@@ -241,7 +286,9 @@
     }
     /* HERO */
     .hero_cntnt h3::after {
-        transform: translate(-100px, 46px);
+        top: 72%;
+        left: 45%;
+        transform: translate(-66%, -41%);
     }
     /* SERVICE_SECTION */
     .ser_head h3::after {

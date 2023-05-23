@@ -141,8 +141,9 @@ header.fixed{
     width: 188px;
     display: block;
     position: absolute;
-    top: 100px;
-    left: 89px;
+    top: 62%;
+    left: 53%;
+    transform: translate(-57%, -40%);
 }
 .hero_cntnt p{
     font-size: 14px;
@@ -174,6 +175,7 @@ header.fixed{
     animation: zoom-in-zoom-out 1.5s ease infinite;
     height: 280px;
     width: 619px;
+    z-index: -1;
 }
 @keyframes zoom-in-zoom-out {
     0% {
@@ -193,6 +195,7 @@ header.fixed{
     animation: zoom-in-zoom-out 2s ease infinite;
     height: 206px;
     width: 594px;
+    z-index: -1;
 }
 @keyframes zoom-in-zoom-out {
     0% {
@@ -382,9 +385,9 @@ header.fixed{
     width: 188px;
     display: block;
     position: absolute;
-    top: 100px;
+    bottom: 0%;
     left: 50%;
-    transform: translate(-21px, -18px);
+    transform: translate(-21px, 65%);
 }
 /* FEAT_ICON_FULL_HVR */
 .feat_item_box{
