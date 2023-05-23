@@ -15,10 +15,10 @@
 
 @media (max-width: 1200px) { 
         /* HERO_SECTION */
-        /* .hero_cntnt h3::after{
-            top: 156px;
-            left: -7px;
-        } */
+        .hero_cntnt h3::after{
+            top: 72%;
+            left: 33%;
+        }
         .hero_main_img{
             width: 100%;
             position: relative;
