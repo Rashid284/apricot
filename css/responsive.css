@@ -1,0 +1,280 @@
+@media (max-width: 1400px) { }
+
+@media (max-width: 1200px) { 
+        /* HERO_SECTION */
+        .hero_cntnt h3::after{
+            top: 156px;
+            left: -7px;
+        }
+        .hero_main_img{
+            width: 100%;
+            position: relative;
+            top: 55px;
+        }
+        .hero_vector_img_1{
+            width: 100%;
+            height: 100%;
+            left: 0;
+        }
+        .hero_vector_img_2{
+            width: 100%;
+            height: 100%;
+            left: 0;
+        }
+        /* SERVICE_SECTION */
+        .ser_head h3::after{
+            left: 43%;
+            transform: translate(-56%, 0px);
+        }
+        /* FEATURE_SECTION */
+        .featu_head h3::after{
+            left: 40%;
+        }
+        /* PROJECT_SECTION */
+        .pro_sub_head_main h3::after{
+            transform: translate(-2px, -18px);
+        }
+        /* CONTACT_SECTION */
+        .update_head a{
+            margin-left: 118px;
+        }
+        .update_img::after{
+            transform: translate(42px, -20px);
+        }
+        /* .FOOTER_SECTION */
+        .foot_dis_end{
+            padding-left: 0px;
+        }
+ }
+
+@media (max-width: 768px) { 
+     /* HEADER */
+     .naavbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        opacity: 0;
+        height: auto;
+        background-color: #fff;
+        display: block;
+        transform: translateX(150px);
+        margin-top: 75px;
+        padding: 25px 0px;
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+    .naavbar.show{
+        transform: translateX(70px);
+        opacity: 1;
+    }
+    .naavbar ul{
+        display: block;
+        width: 100%;
+    }
+    .naavbar ul li{
+        padding: 5px 0px;
+        border-bottom: 1px solid;
+    }
+    .naavbar ul li a{
+        padding: 0px 25px;
+    }
+    .naavbar_btn{
+        display: block;
+        margin-top: 35px;
+        padding-left: 20px;
+    }
+    .mob_menu{
+        display: block;
+        margin-top: 8px;
+    }
+        /* }HERO_SECTION */
+        .hero_cntnt h3{
+            font-size: 35px;
+            line-height: 53px;
+        }
+        .hero_img{
+            margin-top: 89px;
+        }
+        .hero_cntnt h3::after{
+            transform: translate(358px, -118px);
+        }
+        .hero_main_img{
+            width: 100%;
+            position: relative;
+            top: 55px;
+        }
+        .hero_vector_img_1{
+            width: 100%;
+            height: 100%;
+            left: 0;
+        }
+        .hero_vector_img_2{
+            width: 100%;
+            height: 100%;
+            left: 0;
+        }
+        .bg{
+            width: 140px;
+            height: 140px;
+            border-radius: 140px;
+            filter: blur(140px);
+            left: 0;
+        }
+        /* SERVICE_SECTION */
+        .ser_head h3::after{
+            left: 41%;
+        }
+        /* FEATURE_SECTION */
+        .featu_head h3::after{
+            left: 36%;
+        }
+        .feat_bg {
+            top: 475px;
+        }
+        /* CONTACT_SECTION */
+        .update_head::after{
+            top: -9%;
+        }
+        .update_head a{
+            margin-left: 358px;
+        }
+        .update_img::after{
+            transform: translate(37px, 1px);
+        }
+        /* FOOTER_SECTION */
+        .foot_dis_end{
+            display: grid;
+            justify-content: end;
+        }
+ }
+
+@media (max-width: 576px) { 
+    /* OUR_SERVICE_SECTION */
+    .ser_head h3::after{
+        left: 29%;
+    }
+    .gradi_bg_1{
+        width: 100px;
+        height: 460px;
+        border-bottom: 100px;
+        filter: blur(150px);
+        top: 40%;
+        left: 58px;
+        z-index: -11;
+    }
+    .gradi_bg_2{
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        filter: blur(100px);
+        left: 0;
+    }
+    .sub_head_main h3::after{
+        top: 163px;
+        left: 80px;
+    }
+    .ser_icons{
+        margin-top: 25px;
+    }
+    /* FEATURE_SECTION */
+    .featu_head h3::after{
+        left: 23%;
+        transform: translate(-23%, 0px);
+    }
+    .feat_sub_head_main h3::after{
+        transform: translate(-19px, 26px);
+    }
+    .feat_bg{
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        filter: blur(100px);
+        left: 0;
+    }
+    .feat_bg_2{
+        width: 100px;
+        height: 416px;
+        border-radius: 100px;
+        filter: blur(150px);
+        top: 670px;
+        right: 210px;
+    }
+    /* UODATE_SECTION */
+    .update_head::after{
+        top: -7%;
+    }
+    .update_img::after{
+        top: 0px;
+        right: 25px;
+    }
+    .update_head form{
+        padding: 15px 15px;
+    }
+    .update_head a{
+        margin-left: 44px;
+    }
+    /* PROJECT_SECTION */
+    .pro_bg{
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        filter: blur(75px);
+        top: 470px;
+        left: 0;
+    }
+    /* FOOTER_SECTION */
+    .foot_dis_end{
+        display: block;
+    }
+ }
+ @media (max-width: 360px) {
+    /* CONTACT_SECTION */
+    .update_head a {
+        margin-left: 28px;
+    }
+  }
+ @media (max-width: 280px) { 
+    /* HEADER */
+    .naavbar.show{
+        transform: translateX(55px);
+    }
+    /* HERO */
+    .hero_cntnt h3::after {
+        transform: translate(-100px, 46px);
+    }
+    /* SERVICE_SECTION */
+    .ser_head h3::after {
+        left: 22%;
+    }
+    /* FEATURE_SECTION */
+    .featu_head h3::after{
+        left: 14%;
+    }
+    .feat_sub_head_main h3::after {
+        transform: translate(-91px, 68px);
+    }
+    /* PROJECT_SECTION */
+    .pro_sub_head_main h3::after{
+        top: 95px;
+        left: 39%;
+    }
+    /* UPDATE_SECTION */
+    .update_head::after{
+        top: -6%;
+    }
+    .update_head form{
+        padding: 15px 8px;
+    }
+    .update_head a{
+        margin-left: -28px;
+        padding: 8px 5px;
+    }
+    /* CONTACT_SECTION */
+    .cntct_head_main h3::after{
+        top: 169px;
+    }
+    .cntct_icons ul{
+        gap: 19px;
+    }
+  }
